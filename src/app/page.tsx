@@ -1,4 +1,5 @@
 import Photo from "@/components/Photo";
+import Botaodownload from "./components/botaodownloadcurriculo";
 
 export default function Home() {
   return (
@@ -13,28 +14,30 @@ export default function Home() {
         {/* Texto à esquerda em dispositivos maiores */}
         <div className="text-center xl:text-left xl:w-1/2 xl:mr-20">
           <h2 className="text-lg font-semibold">Olá, eu sou</h2>
-          <h1 className="text-4xl font-bold mt-2 text-accent">André</h1>
+          <h1 className="text-4xl font-bold mt-2 text-accent">André.</h1>
           <p className="mt-4">
             Com mais de 10 anos de experiência em gestão e coordenação de
-            equipes, desenvolvi sólidas habilidades em liderança, organização.
-            No entanto, movido pela paixão por tecnologia e o desejo de atuar em
-            uma área que sempre sonhei, decidi fazer uma transição de carreira.
-            Formado em Análise e Desenvolvimento de Sistemas pela Universidade
-            Projeção, comecei minha nova trajetória profissional em 2021,
-            iniciando com freelances em desenvolvimento .NET. Durante esse
-            período, tive a oportunidade de aplicar meus conhecimentos em
-            projetos práticos e, com o tempo, fui efetivado em algumas empresas,
-            onde pude aprimorar ainda mais minhas habilidades técnicas. Sempre
+            equipes, desenvolvi habilidades sólidas em liderança e organização.
+            Movido pela paixão por tecnologia e pelo desejo de atuar na área que
+            sempre sonhei, decidi fazer uma transição de carreira. Formado em
+            Análise e Desenvolvimento de Sistemas pela Universidade Projeção,
+            iniciei minha nova trajetória profissional em 2021 com
+            desenvolvimento em <span className="text-accent">.NET</span>.
+            Durante esse período, tive a oportunidade de aplicar meus
+            conhecimentos em projetos práticos e fui efetivado em algumas
+            empresas, onde aprimorei minhas habilidades técnicas. Sempre
             motivado a crescer e enfrentar novos desafios, busco me aprofundar
-            no universo da programação e desenvolvimento de software. Meu
-            objetivo é não apenas dominar as ferramentas e linguagens que
-            utilizo no dia a dia, como .NET, C#, entre outras, mas também
-            contribuir de maneira significativa para as equipes e projetos nos
-            quais estou inserido. Acredito no aprendizado contínuo e na inovação
-            como pilares para o sucesso nessa nova fase da minha carreira, e
-            estou constantemente explorando novas tecnologias e tendências para
-            me manter atualizado e entregar soluções de alta qualidade.
+            no universo da programação e desenvolvimento de software. Acredito
+            no aprendizado contínuo e na inovação como pilares para o sucesso
+            nessa nova fase da minha carreira. Estou constantemente explorando
+            novas tecnologias e tendências para me manter atualizado e entregar
+            soluções de alta qualidade. Minhas experiências anteriores em gestão
+            têm me proporcionado uma perspectiva única, ajudando a otimizar
+            processos e a colaborar de forma eficiente em equipe.
           </p>
+          <div className="mt-6 flex  justify-center align-middle">
+            <Botaodownload />
+          </div>
         </div>
       </div>
     </main>

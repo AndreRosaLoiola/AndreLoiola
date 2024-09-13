@@ -1,12 +1,12 @@
 import Photo from "@/components/Photo";
-import { Button } from "@/components/ui/button";
-import { MdCloudDownload } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 import minhafoto from "@/app/img/logo.png";
+import Botaodownload from "./components/botaodownloadcurriculo";
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen p-4">
@@ -47,15 +47,7 @@ export default function Home() {
 
       {/* Botão e social links abaixo, centralizado */}
       <div className="flex flex-col items-center gap-4">
-        <Button
-          form="contact-form"
-          variant={"outline"}
-          size={"lg"}
-          className="uppercase flex items-center gap-2 rounded"
-        >
-          <span>Download currículum</span>
-          <MdCloudDownload className="text-xl" />
-        </Button>
+        <Botaodownload />
 
         {/* Div para social links */}
         <div className="mb-8 flex flex-row space-x-4">

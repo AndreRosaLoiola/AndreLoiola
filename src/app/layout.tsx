@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
-import PageTransition from "@/components/pageTransition";
-import StairTransition from "@/components/StairTransition";
+//import PageTransition from "@/components/pageTransition";
+//import StairTransition from "@/components/StairTransition";
 import { Toaster } from "react-hot-toast";
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],

@@ -2,15 +2,12 @@ import Photo from "@/components/Photo";
 import { Button } from "@/components/ui/button";
 import { MdCloudDownload } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 import minhafoto from "@/app/img/logo.png";
 export default function Home() {
-  const links = [{ name: "contact", path: "/contact" }];
-
   return (
     <main className="flex flex-col items-center justify-center min-h-screen p-4">
       {/* Container para alinhar foto à direita e texto à esquerda */}

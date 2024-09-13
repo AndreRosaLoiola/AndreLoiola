@@ -55,7 +55,7 @@ const Contact = () => {
         <p>
           Estou sempre aberto a novas oportunidades e colaborações. Se você tem
           alguma ideia, projeto ou dúvida, não hesite em entrar em contato!
-          Preencha o formulário ao lado e eu retornarei o mais breve possível.
+          Preencha o formulário e eu retornarei o mais breve possível.
         </p>
         <div className="flex items-center mt-4">
           <FaWhatsapp className="text-xl text-accent mr-2" />

@@ -25,7 +25,6 @@ export default function RootLayout({
       <body className={`${jetbrainsMono.variable} antialiased`}>
         <Toaster />
         <Header />
-        {/*  */}
         {children}
         {/* <StairTransition />
         <PageTransition>{children}</PageTransition> */}

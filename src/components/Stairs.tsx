@@ -11,7 +11,7 @@ const reverseIndex = (index: number) => {
   return totalSteps - index - 1;
 };
 
-const getColor = (index: number) => {
+const getColor = () => {
   // Função para gerar uma cor cinza transparente baseada no índice
   const grayColor = "rgba(128, 128, 128, 0.5)"; // Cinza com 50% de opacidade
   return grayColor;
@@ -36,7 +36,7 @@ const Stairs = () => {
             }}
             className="h-full w-1/6 bg-white absolute"
             style={{
-              backgroundColor: getColor(index), // Define a cor diretamente no estilo
+              backgroundColor: getColor(), // Define a cor diretamente no estilo
               left: `${index * 16.6}%`, // Ajusta a posição horizontal para criar o efeito de degraus
               top: "0", // Posiciona os degraus na parte superior
             }}
@@ -60,7 +60,7 @@ const Stairs = () => {
             }}
             className="h-full w-1/6 bg-white absolute"
             style={{
-              backgroundColor: getColor(index), // Define a cor diretamente no estilo
+              backgroundColor: getColor(), // Define a cor diretamente no estilo
               right: `${index * 16.6}%`, // Ajusta a posição horizontal para criar o efeito de degraus
               top: "0", // Posiciona os degraus na parte superior
             }}

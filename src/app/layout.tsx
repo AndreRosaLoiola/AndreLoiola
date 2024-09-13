@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
+import Header from "@/components/header";
 //import PageTransition from "@/components/pageTransition";
 //import StairTransition from "@/components/StairTransition";
 import { Toaster } from "react-hot-toast";
+import Footer from "@/components/footer";
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
@@ -29,6 +30,7 @@ export default function RootLayout({
         {children}
         {/* <StairTransition />
         <PageTransition>{children}</PageTransition> */}
+        <Footer />
       </body>
     </html>
   );

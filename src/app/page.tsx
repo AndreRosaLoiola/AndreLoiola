@@ -1,11 +1,4 @@
 import Photo from "@/components/Photo";
-import { FaLinkedin } from "react-icons/fa";
-import { MdOutlineMail } from "react-icons/md";
-import { FaGithub } from "react-icons/fa";
-import Link from "next/link";
-import Image from "next/image";
-import minhafoto from "@/app/img/logo.png";
-import Botaodownload from "./components/botaodownloadcurriculo";
 
 export default function Home() {
   return (
@@ -42,40 +35,6 @@ export default function Home() {
             estou constantemente explorando novas tecnologias e tendências para
             me manter atualizado e entregar soluções de alta qualidade.
           </p>
-        </div>
-      </div>
-
-      {/* Botão e social links abaixo, centralizado */}
-      <div className="flex flex-col items-center gap-4">
-        <Botaodownload />
-
-        {/* Div para social links */}
-        <div className="mb-8 flex flex-row space-x-4">
-          <a
-            href="https://www.linkedin.com/in/andr%C3%A9-rosa-loiola-644b76246/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin className="text-3xl" />
-          </a>
-
-          <a href="/contact" className="text-3xl">
-            <MdOutlineMail />
-          </a>
-          <a href="https://github.com/AndreRosaLoiola" target="_blank">
-            <FaGithub className="text-3xl" />
-          </a>
-          <Link
-            href={"https://www.instagram.com/taguareef?igsh=aGN4MHBvb21rZ3N1"}
-          >
-            <Image
-              src={minhafoto}
-              priority
-              quality={100}
-              alt="Minha Foto"
-              className="object-contain rounded-md border-gray-500 w-8 h-8 sm:w-10 sm:h-10 -mt-1"
-            />
-          </Link>
         </div>
       </div>
     </main>

@@ -70,13 +70,6 @@ export default function Home() {
             <FaLinkedin className="text-3xl" />
           </a>
 
-          <a
-            href="https://wa.me/5561981194732?text=Ol%C3%A1%20Andr%C3%A9!%20Tenho%20uma%20oportunidade%20para%20voc%C3%AA%20e%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20seu%20portf%C3%B3lio."
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaWhatsapp className="text-3xl" />
-          </a>
           <a href="/contact" className="text-3xl">
             <MdOutlineMail />
           </a>

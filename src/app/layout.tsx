@@ -4,6 +4,7 @@ import "./globals.css";
 import { Toaster } from "react-hot-toast";
 import Footer from "@/components/footer";
 import Header from "@/components/Header";
+import LandbotChat from "@/components/LandbotChat";
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
@@ -28,6 +29,7 @@ export default function RootLayout({
         {children}
         {/* <StairTransition />
         <PageTransition>{children}</PageTransition> */}
+        <LandbotChat />
         <Footer />
       </body>
     </html>

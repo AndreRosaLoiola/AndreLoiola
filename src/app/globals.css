@@ -8,3 +8,23 @@
     overflow-x: hidden;
   }
 }
+.item {
+  transition: transform 0.2s ease;
+  background-color: rgba(251, 133, 6, 0.941);
+}
+
+.item.dragging {
+  opacity: 0.5;
+  transform: rotate(2deg);
+}
+
+.column {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.03); /* fundo semi-transparente */
+  border-radius: 5px;
+  min-width: 200px;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}

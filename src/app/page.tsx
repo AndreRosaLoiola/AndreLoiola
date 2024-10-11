@@ -16,12 +16,10 @@ export default function Home() {
           <h2 className="text-lg font-semibold">Olá, eu sou</h2>
           <h1 className="text-4xl font-bold mt-2 text-accent">André.</h1>
           <p className="mt-4">
-            Com mais de 10 anos de experiência em gestão e coordenação de
-            equipes, desenvolvi habilidades sólidas em liderança e organização.
             Movido pela paixão por tecnologia e pelo desejo de atuar na área que
             sempre sonhei, decidi fazer uma transição de carreira. Formado em
             Análise e Desenvolvimento de Sistemas pela Universidade Projeção,
-            iniciei minha nova trajetória profissional em 2021 com
+            iniciei minha nova trajetória profissional em 2015 com
             desenvolvimento em <span className="text-accent">.NET</span>.
             Durante esse período, tive a oportunidade de aplicar meus
             conhecimentos em projetos práticos e fui efetivado em algumas
@@ -31,10 +29,9 @@ export default function Home() {
             no aprendizado contínuo e na inovação como pilares para o sucesso
             nessa nova fase da minha carreira. Estou constantemente explorando
             novas tecnologias e tendências para me manter atualizado e entregar
-            soluções de alta qualidade. Minhas experiências anteriores em gestão
-            têm me proporcionado uma perspectiva única, ajudando a otimizar
-            processos e a colaborar de forma eficiente em equipe.
+            soluções de alta qualidade.
           </p>
+
           <div className="mt-6 flex  justify-center align-middle">
             <Botaodownload />
           </div>

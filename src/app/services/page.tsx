@@ -123,14 +123,22 @@ const Services = () => {
                 className="bg-white p-4 rounded w-60 h-32 text-black item"
                 draggable="true"
               >
-                Desenvolvedor Jr Full Stack .Net/React . OnFriday Technologies
-                2023 -2024
+                Desenvolvedor Jr Full Stack .Net/Vue GEAP o Plano de Saúde do
+                Servidor Público 2024
               </div>
             </div>
           </div>
           <div className="flex flex-col gap-4 w-full">
             <div className="text-accent font-bold mb-2">Done.</div>
             <div className="flex flex-col gap-4 p-4 bg-cadetblue rounded column">
+              <div
+                className="bg-white p-4 rounded w-60 h-32 text-black item"
+                draggable="true"
+              >
+                Desenvolvedor Jr Full Stack .Net/React . OnFriday Technologies
+                2023 -2024
+              </div>
+
               <div
                 className="bg-white p-4 rounded w-60 h-32 text-black item"
                 draggable="true"

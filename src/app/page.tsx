@@ -20,7 +20,6 @@ export default function Home() {
             com um histórico de participação em projetos de grande porte para
             empresas renomadas como{" "}
             <span className="text-accent">Allure Models</span>,{" "}
-            <span className="text-accent">Brasil Cash</span>,{" "}
             <span className="text-accent">Polishop</span> e{" "}
             <span className="text-accent">
               Geap Plano de Saúde do Servidor Público

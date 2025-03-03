@@ -28,7 +28,7 @@ const Services = () => {
       const target = dragEvent.currentTarget as HTMLElement;
       const dragging = document.querySelector(".dragging") as HTMLElement;
 
-      if (!(dragging instanceof HTMLElement)) return; // Verifique se o dragging é um HTMLElement
+      if (!(dragging instanceof HTMLElement)) return;
 
       const applyAfter = getNewPosition(target, dragEvent.clientY);
 
@@ -61,7 +61,7 @@ const Services = () => {
       const target = dragEvent.currentTarget as HTMLElement;
       const dragging = document.querySelector(".dragging") as HTMLElement;
 
-      if (!(dragging instanceof HTMLElement)) return; // Verifique se o dragging é um HTMLElement
+      if (!(dragging instanceof HTMLElement)) return;
 
       const applyAfter = getNewPosition(target, dragEvent.clientY);
       if (applyAfter) {
@@ -70,7 +70,6 @@ const Services = () => {
         target.prepend(dragging);
       }
 
-      // Remover a classe 'dragging' após o drop
       dragging.classList.remove("dragging");
     };
 
@@ -81,7 +80,6 @@ const Services = () => {
       column.addEventListener("drop", handleDrop as EventListener);
     });
 
-    // Remova os event listeners ao desmontar o componente
     return () => {
       columns.forEach((column) => {
         column.removeEventListener(
@@ -149,7 +147,7 @@ const Services = () => {
                 className="bg-white p-4 rounded w-60 h-32 text-black item"
                 draggable="true"
               >
-                Gerente de vendas casa das ferragens 2015 - 2022
+                Gerente Casa das ferragens 2015 - 2022
               </div>
             </div>
           </div>
